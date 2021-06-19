@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Magicboomliu.github.io</id>
     <title>Liu Zihua Personal Home Page</title>
-    <updated>2021-06-19T07:29:33.347Z</updated>
+    <updated>2021-06-19T07:41:40.843Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Magicboomliu.github.io"/>
     <link rel="self" href="https://Magicboomliu.github.io/atom.xml"/>
@@ -17,7 +17,8 @@ You can contact me by twiiter or github</subtitle>
         <link href="https://Magicboomliu.github.io/post/self-introduction/">
         </link>
         <updated>2021-06-19T04:34:28.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="my-name-is-liu-zihua-currently-a-graduate-student-majors-in-computer-vision-in-tokyo-institude-of-technology-under-the-supervision-of-profmasatoshi-okutomi">My Name is Liu Zihua, currently a graduate student  majors in computer vision in Tokyo institude of Technology under the supervision of Prof.Masatoshi Okutomi.</h3>
+        <content type="html"><![CDATA[<!-- more -->
+<p>My Name is Liu Zihua, currently a graduate student  majors in computer vision in Tokyo institude of Technology under the supervision of Prof.Masatoshi Okutomi.</p>
 ]]></content>
     </entry>
 </feed>
