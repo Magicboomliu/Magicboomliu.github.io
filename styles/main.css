@@ -1047,6 +1047,7 @@ hr {
   /*考虑浏览器兼容性*/
   -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  max-height: 550px;
 }
 .postdate {
   margin-top: 10px;
@@ -1847,9 +1848,6 @@ tr:nth-child(2n) {
   -webkit-animation: fade-in 1s;
   /*针对webkit内核*/
 }
-.commentcontainer {
-  text-align: left;
-}
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -2033,12 +2031,6 @@ tr:nth-child(2n) {
 blockquote {
   background-color: #eff8f0;
   border-color: #5cb85c;
-}
-summary {
-  padding: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
 }
 .text {
   padding-top: 60px;
@@ -3057,6 +3049,7 @@ a {
   color: white;
 }
 .tk-content span {
+  display: flex;
   text-align: left;
 }
 .twikoo p {

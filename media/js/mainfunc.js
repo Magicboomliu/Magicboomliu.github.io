@@ -294,13 +294,11 @@ function donateInit() {
 
 
 //------------fog 1.0版本彩蛋😉  👇--------------------------------------
-function getFogUser(sitename) {
+function getFogUser() {
     $.ajax({
-        url: 'https://easydown.top/work/getoFog', //请求url地址
-        type: "post",
-        data: {
-            "sitename":sitename
-        }, //发送post请求携带的数据信息
+        url: 'https://easydown.top/work/getFog', //请求url地址
+        type: "get",
+        data: '', //发送post请求携带的数据信息
         dataType: "json", //期望返回的数据格式，也可以不设置
         success: function (data) {
             var siteurl = data.data.siteurl;
