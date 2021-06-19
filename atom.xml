@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Magicboomliu.github.io</id>
-    <title>Liu Zihua</title>
-    <updated>2021-06-19T05:52:23.864Z</updated>
+    <title>Liu Zihua Personal Home Page</title>
+    <updated>2021-06-19T05:56:07.278Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Magicboomliu.github.io"/>
     <link rel="self" href="https://Magicboomliu.github.io/atom.xml"/>
-    <subtitle>Welcome  to my HomePage</subtitle>
+    <subtitle>Welcome  to my HomePage
+You can contact me by twiiter or github</subtitle>
     <logo>https://Magicboomliu.github.io/images/avatar.png</logo>
     <icon>https://Magicboomliu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Liu Zihua</rights>
+    <rights>All rights reserved 2021, Liu Zihua Personal Home Page</rights>
     <entry>
         <title type="html"><![CDATA[new Blogs]]></title>
         <id>https://Magicboomliu.github.io/post/new-blogs/</id>
