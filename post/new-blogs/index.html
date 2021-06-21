@@ -5,9 +5,9 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    new Blogs | Liu Zihua HP
+    Einops 实现优雅的Tensor操作 | Liu Zihua HP
 </title>
-<link rel="shortcut icon" href="https://Magicboomliu.github.io/favicon.ico?v=1624090445385">
+<link rel="shortcut icon" href="https://Magicboomliu.github.io/favicon.ico?v=1624277543872">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -28,7 +28,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://Magicboomliu.github.io">
-                <img class="avatar" src="https://Magicboomliu.github.io/images/avatar.png?v=1624090445385" alt="">
+                <img class="avatar" src="https://Magicboomliu.github.io/images/avatar.png?v=1624277543872" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -107,7 +107,7 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            new Blogs
+                            Einops 实现优雅的Tensor操作
                         </h2>
                         <div class="post-info">
                             <time class="post-time">2021-06-19</time>
@@ -115,7 +115,36 @@
                         </div>
                         
                                 <div class="post-content">
-                                    <p>This is a test of new blogs</p>
+                                    <p>最近在看vit_pytorch代码，看到里面有很多地方用到einops来对tensor操作，本实验结合这篇博客内容和自己一些尝试。</p>
+<!-- more -->
+<pre><code>import einops
+import matplotlib.pyplot as plt
+import numpy as np
+</code></pre>
+<p>读取一个文件夹下图片生成一个batch</p>
+<!-- more -->
+<pre><code>from PIL import Image
+import os
+
+images = [np.array(Image.open('./images/'+file_name).resize((400, 300))) for file_name in os.listdir('./images') if file_name.endswith('.jpg')]
+images = (np.array(images)/255.0)
+
+print(images.shape)
+print(images.dtype)
+
+col = 3
+row = int(len(imges)/col)
+
+for i in range(row):
+for j in range(col):
+index = i*col+j
+plt.title(index)
+plt.subplot(row, col, index+1) 
+plt.imshow(images[index])
+plt.show()
+(6, 300, 400, 3)
+float64
+</code></pre>
 
                                 </div>
                     </article>
@@ -141,7 +170,7 @@
                                 <!-- id-card -->
                                 
     <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://Magicboomliu.github.io/images/avatar.png?v=1624090445385)">
+        <div class="id_card-avatar" style="background-image: url(https://Magicboomliu.github.io/images/avatar.png?v=1624277543872)">
         </div>
         <h1 class="id_card-title">
             Liu Zihua HP

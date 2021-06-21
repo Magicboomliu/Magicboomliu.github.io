@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Magicboomliu.github.io</id>
     <title>Liu Zihua HP</title>
-    <updated>2021-06-19T08:14:51.974Z</updated>
+    <updated>2021-06-21T12:12:28.088Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Magicboomliu.github.io"/>
     <link rel="self" href="https://Magicboomliu.github.io/atom.xml"/>
@@ -12,12 +12,43 @@
     <icon>https://Magicboomliu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Liu Zihua HP</rights>
     <entry>
-        <title type="html"><![CDATA[new Blogs]]></title>
+        <title type="html"><![CDATA[Einops 实现优雅的Tensor操作]]></title>
         <id>https://Magicboomliu.github.io/post/new-blogs/</id>
         <link href="https://Magicboomliu.github.io/post/new-blogs/">
         </link>
         <updated>2021-06-19T08:12:28.000Z</updated>
-        <content type="html"><![CDATA[<p>This is a test of new blogs</p>
+        <summary type="html"><![CDATA[<p>最近在看vit_pytorch代码，看到里面有很多地方用到einops来对tensor操作，本实验结合这篇博客内容和自己一些尝试。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近在看vit_pytorch代码，看到里面有很多地方用到einops来对tensor操作，本实验结合这篇博客内容和自己一些尝试。</p>
+<!-- more -->
+<pre><code>import einops
+import matplotlib.pyplot as plt
+import numpy as np
+</code></pre>
+<p>读取一个文件夹下图片生成一个batch</p>
+<!-- more -->
+<pre><code>from PIL import Image
+import os
+
+images = [np.array(Image.open('./images/'+file_name).resize((400, 300))) for file_name in os.listdir('./images') if file_name.endswith('.jpg')]
+images = (np.array(images)/255.0)
+
+print(images.shape)
+print(images.dtype)
+
+col = 3
+row = int(len(imges)/col)
+
+for i in range(row):
+for j in range(col):
+index = i*col+j
+plt.title(index)
+plt.subplot(row, col, index+1) 
+plt.imshow(images[index])
+plt.show()
+(6, 300, 400, 3)
+float64
+</code></pre>
 ]]></content>
     </entry>
     <entry>
