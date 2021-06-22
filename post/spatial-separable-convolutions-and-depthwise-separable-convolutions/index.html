@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    Einops 实现优雅的Tensor操作 | Liu Zihua HP
+    Spatial Separable Convolutions &amp; Depthwise Separable Convolutions | Liu Zihua HP
 </title>
 <link rel="shortcut icon" href="https://Magicboomliu.github.io/favicon.ico?v=1624348661824">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -107,44 +107,21 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            Einops 实现优雅的Tensor操作
+                            Spatial Separable Convolutions &amp; Depthwise Separable Convolutions
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2021-06-19</time>
+                            <time class="post-time">2021-06-22</time>
                             
                         </div>
                         
+                            <div class="post-feature-image" style="background-image: url('https://Magicboomliu.github.io/post-images/spatial-separable-convolutions-and-depthwise-separable-convolutions.png')"></div>
+                            
                                 <div class="post-content">
-                                    <p>最近在看vit_pytorch代码，看到里面有很多地方用到einops来对tensor操作，本实验结合这篇博客内容和自己一些尝试。</p>
+                                    <p>URL LINK Here:  <a href="https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728">A Basic Introduction to Separable Convolutions</a></p>
 <!-- more -->
-<pre><code>import einops
-import matplotlib.pyplot as plt
-import numpy as np
-</code></pre>
-<p>读取一个文件夹下图片生成一个batch</p>
-<!-- more -->
-<pre><code>from PIL import Image
-import os
-
-images = [np.array(Image.open('./images/'+file_name).resize((400, 300))) for file_name in os.listdir('./images') if file_name.endswith('.jpg')]
-images = (np.array(images)/255.0)
-
-print(images.shape)
-print(images.dtype)
-
-col = 3
-row = int(len(imges)/col)
-
-for i in range(row):
-for j in range(col):
-index = i*col+j
-plt.title(index)
-plt.subplot(row, col, index+1) 
-plt.imshow(images[index])
-plt.show()
-(6, 300, 400, 3)
-float64
-</code></pre>
+<p>Anyone who takes a look at the architecture of MobileNet will undoubtedly come across the concept of separable convolutions. But what is that, and how is it different from a normal convolution?<br>
+There are two main types of separable convolutions: <strong>spatial separable</strong> convolutions, and depthwise <strong>separable convolutions</strong>.<br>
+For more information, look this site:  <a href="https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728">A Basic Introduction to Separable Convolutions</a></p>
 
                                 </div>
                     </article>
@@ -152,9 +129,9 @@ float64
                     
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://Magicboomliu.github.io/post/self-introduction/">
+                            <a href="https://Magicboomliu.github.io/post/new-blogs/">
                                 <h3 class="post-title">
-                                    Self -introduction 
+                                    Einops 实现优雅的Tensor操作
                                 </h3>
                             </a>
                         </div>

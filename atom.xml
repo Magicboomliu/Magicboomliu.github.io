@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Magicboomliu.github.io</id>
     <title>Liu Zihua HP</title>
-    <updated>2021-06-21T12:12:28.088Z</updated>
+    <updated>2021-06-22T07:57:45.458Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Magicboomliu.github.io"/>
     <link rel="self" href="https://Magicboomliu.github.io/atom.xml"/>
@@ -11,6 +11,21 @@
     <logo>https://Magicboomliu.github.io/images/avatar.png</logo>
     <icon>https://Magicboomliu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Liu Zihua HP</rights>
+    <entry>
+        <title type="html"><![CDATA[Spatial Separable Convolutions & Depthwise Separable Convolutions]]></title>
+        <id>https://Magicboomliu.github.io/post/spatial-separable-convolutions-and-depthwise-separable-convolutions/</id>
+        <link href="https://Magicboomliu.github.io/post/spatial-separable-convolutions-and-depthwise-separable-convolutions/">
+        </link>
+        <updated>2021-06-22T07:49:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>URL LINK Here:  <a href="https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728">A Basic Introduction to Separable Convolutions</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>URL LINK Here:  <a href="https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728">A Basic Introduction to Separable Convolutions</a></p>
+<!-- more -->
+<p>Anyone who takes a look at the architecture of MobileNet will undoubtedly come across the concept of separable convolutions. But what is that, and how is it different from a normal convolution?<br>
+There are two main types of separable convolutions: <strong>spatial separable</strong> convolutions, and depthwise <strong>separable convolutions</strong>.<br>
+For more information, look this site:  <a href="https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728">A Basic Introduction to Separable Convolutions</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Einops 实现优雅的Tensor操作]]></title>
         <id>https://Magicboomliu.github.io/post/new-blogs/</id>
