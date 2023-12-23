@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Zihua Liu (刘子桦) zliu@ok.sc.e.titech.ac.jp"
+title: "Zihua Liu (刘子桦) 
+zliu@ok.sc.e.titech.ac.jp"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
