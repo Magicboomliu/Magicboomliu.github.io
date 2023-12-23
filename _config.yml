@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Zihua Liu"
-  avatar           : "profile.png"
+  avatar           : "images/avatar_me.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Tokyo,Japan"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=5GVxjvIAAAAJ"
+  email            : "zliu@ok.sc.e.titech.ac.jp"
+  researchgate     :  "https://www.researchgate.net/profile/Liu-Zihua"
   uri              :
   bitbucket        :
   codepen          :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : ""
+  orcid            : "https://orcid.org/0000-0002-3908-0517"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/magicboom2"
   vine             :
   weibo            :
   xing             :
