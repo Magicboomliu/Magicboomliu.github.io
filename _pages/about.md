@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zihua Liu"
+title: "Zihua Liu (刘子桦) zliu@ok.sc.e.titech.ac.jp"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,7 +12,7 @@ redirect_from:
 Room 307, South Building 5  
 Dept. of System Control and Engineering  
 Tokyo Institue of Technology.
-Tokyo, Japan
+Tokyo, Japans
 
 
 Biography
