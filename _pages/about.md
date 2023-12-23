@@ -55,15 +55,14 @@ Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision
 [[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Liu_Global_Occlusion-Aware_Transformer_for_Robust_Stereo_Matching_WACV_2024_paper.html)&emsp;[[code]](https://github.com/Magicboomliu/GOAT)  
 
 
-
 Honors & Awards 
 ======
-*  Tokyo Tech Advanced Human Resource Development Fellowship. &emsp;&emsp;&emsp;&emsp; 2023/04-2026/04 
+*  Tokyo Tech Advanced Human Resource Development Fellowship. &emsp;&emsp;&emsp;&emsp; 2023/04-2026/04  
 *  SCIE Student Award. &emsp;&emsp;&emsp;&emsp; 2023/03 
 
 Academic Services
 ======
-* Reviewer for the ACM International Conference on Multimedia            &emsp;&emsp;&emsp;&emsp; 2022                  
+* Reviewer for the ACM International Conference on Multimedia  &emsp;&emsp;&emsp;&emsp; 2022                  
 
 
 
