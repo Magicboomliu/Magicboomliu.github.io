@@ -1,6 +1,6 @@
 ---
 title: "MEGVII Algorthim Engineer Internship"
-collection: teaching
+collection: Internship
 type: "Undergraduate course"
 permalink: /teaching/megvii_intern
 venue: "MEGVII Shanghai Reseach Center"

@@ -1,6 +1,6 @@
 ---
 title: "Sensetime Japan, Researcher Intren"
-collection: teaching
+collection: Internship
 type: "Workshop"
 permalink: /teaching/sensetime_japan
 venue: "Sensetime Tokyo Office"
