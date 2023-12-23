@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zihua Liu"
-  avatar           : "images/avatar_me.jpg"
+  avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Tokyo,Japan"
   employer         :
