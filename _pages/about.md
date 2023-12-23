@@ -13,7 +13,7 @@ redirect_from:
 Room 307, South Building 5  
 Dept. of System Control and Engineering  
 Tokyo Institue of Technology.
-Tokyo, Japans
+Tokyo, Japan.
 
 
 Biography
