@@ -8,24 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-
 ### Ph.D Candidate
-
----
-
 Room 307, South Building 5  
 Dept. of System Control and Engineering  
 Tokyo Institue of Technology.
 Tokyo, Japan
 
----
 
 Biography
 ======
 I am a first-year Ph.D. student in [Okutomi Lab](http://www.ok.sc.e.titech.ac.jp/), Dept. of System Control and Engineering, Tokyo Institue of Technology, advised by [Prof.Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html). Before that, I obtained my M.S. degree from the same school and my B.S. degree from South China University of Technology in July 2020.   
 My research interests lie in 3D vision and autonomous driving perception. Previously, I did some research on [Stereo Matching](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/main.html) and 3D detections, now I am focused on generative models.  
 
----
 
 Experience
 ======
@@ -37,7 +31,6 @@ Experience
    Shanghai, China  
    Supervisor: [Zhao Yang]() 
 
----
 
 News
 ======
@@ -48,7 +41,6 @@ News
 * [03/2023] Receive Excellent Grauduation Paper Award Award.
 * [06/2022] One paper were accepted by ACM MM 2022.
 
----
 
 Publications 
 ======
@@ -62,13 +54,13 @@ Proceedings of the 30th ACM International Conference on Multimedia(ACM MM 2022)
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision(WACV 2024)  
 [[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Liu_Global_Occlusion-Aware_Transformer_for_Robust_Stereo_Matching_WACV_2024_paper.html)&emsp;[[code]](https://github.com/Magicboomliu/GOAT)  
 
----
+
 
 Honors & Awards 
 ======
 *  Tokyo Tech Advanced Human Resource Development Fellowship. &emsp;&emsp;&emsp;&emsp; 2023/04-2026/04 
 *  SCIE Student Award. &emsp;&emsp;&emsp;&emsp; 2023/03 
----
+
 Academic Services
 ======
 * Reviewer for the ACM International Conference on Multimedia            &emsp;&emsp;&emsp;&emsp; 2022                  
