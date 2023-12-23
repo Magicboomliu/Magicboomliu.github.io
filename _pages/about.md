@@ -42,7 +42,7 @@ News
 * [06/2022] One paper were accepted by ACM MM 2022.
 
 
-Publications [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=5GVxjvIAAAAJ)
+Publications 
 ======
 * Digging Into Normal Incorporated Stereo Matching.  
 **Z. Liu**, S. Zhang, Z. Wang, M. Okutomi  
