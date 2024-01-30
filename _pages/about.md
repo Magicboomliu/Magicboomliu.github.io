@@ -46,7 +46,7 @@ News
 
 Publications 
 ======
-*  CFDNet: A Generalizable Foggy Stereo Matching Network with Contrastive Feature Distillation..  
+*  CFDNet: A Generalizable Foggy Stereo Matching Network with Contrastive Feature Distillation.
 **Z. Liu**, Y. Li, M.Okutomi  
 IEEE International Conference on Robotics and Automation (ICRA2024)  
 [[paper(coming soon)]]()&emsp;[[code](coming soon)]()  
