@@ -46,15 +46,25 @@ News
 
 Publications 
 ======
-* Digging Into Normal Incorporated Stereo Matching.  
-**Z. Liu**, S. Zhang, Z. Wang, M. Okutomi  
-Proceedings of the 30th ACM International Conference on Multimedia(ACM MM 2022) 
-[[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548312)&emsp;[[code]](https://github.com/Magicboomliu/NINet)  
+*  CFDNet: A Generalizable Foggy Stereo Matching Network with Contrastive Feature Distillation..  
+**Z. Liu**, Y. Li, M.Okutomi  
+IEEE International Conference on Robotics and Automation (ICRA2024)  
+[[paper(coming soon)]]()&emsp;[[code](coming soon)]()  
+
+
 
 * Global Occlusion-Aware Transformer for Robust Stereo Matching.  
 **Z. Liu**, Y. Li, M.Okutomi  
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision(WACV 2024)  
 [[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Liu_Global_Occlusion-Aware_Transformer_for_Robust_Stereo_Matching_WACV_2024_paper.html)&emsp;[[code]](https://github.com/Magicboomliu/GOAT)  
+
+
+* Digging Into Normal Incorporated Stereo Matching.  
+**Z. Liu**, S. Zhang, Z. Wang, M. Okutomi  
+Proceedings of the 30th ACM International Conference on Multimedia(ACM MM 2022) 
+[[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548312)&emsp;[[code]](https://github.com/Magicboomliu/NINet)  
+
+
 
 
 Honors & Awards 
