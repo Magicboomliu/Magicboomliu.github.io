@@ -35,6 +35,7 @@ Experience
 
 News
 ======
+* [02/2024] One paper were accepted by ICRA2024.
 * [10/2023] One paper were accepted by WACV2024. 
 * [06/2023] Start Intership at SenseTime Japan.
 * [04/2023] Receive Tokyo Tech Advanced Human Resource Development Fellowship.
