@@ -35,6 +35,7 @@ Experience
 
 News
 ======
+* [02/2024] One paper were accepted by CVPR2024.
 * [02/2024] One paper were accepted by ICRA2024.
 * [10/2023] One paper were accepted by WACV2024. 
 * [06/2023] Start Intership at SenseTime Japan.
@@ -46,6 +47,12 @@ News
 
 Publications 
 ======
+*  VSRD: Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection.
+**Z.Liu\***, H.Sakuma\*, M.Okutomi  
+Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition. (CVPR 2024)  
+\* is the equal contribution.  
+[[paper(coming soon)]]()&emsp;[[code](coming soon)]()  
+
 *  CFDNet: A Generalizable Foggy Stereo Matching Network with Contrastive Feature Distillation.
 **Z. Liu**, Y. Li, M.Okutomi  
 IEEE International Conference on Robotics and Automation (ICRA2024)  
