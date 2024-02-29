@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+[My CV(PDF)](/files/Liuzihua_resume_en.pdf)  
+
+
+
 Education
 ======
 * B.S. in South China Univer sity of Technology (SCUT), 2016-2020
