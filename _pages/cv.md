@@ -39,30 +39,25 @@ Skills
 
 Publications 
 ======
-*  VSRD: Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection.
+*  VSRD: Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection. <br /> 
 **Z.Liu\***, H.Sakuma\*, M.Okutomi  
 Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition. (CVPR 2024)  
-\* is the equal contribution.  
-[[project page(comming soon)]]()&emsp;[[paper(coming soon)]]()&emsp;[[code]](https://github.com/skmhrk1209/VSRD) 
+\* is the equal contribution.<br />
+[[project page]](http://www.ok.sc.e.titech.ac.jp/res/VSRD/)&emsp;[[paper]](https://arxiv.org/abs/2404.00149)&emsp;[[code]](https://github.com/skmhrk1209/VSRD) 
 
-*  CFDNet: A Generalizable Foggy Stereo Matching Network with Contrastive Feature Distillation.
+*  CFDNet: A Generalizable Foggy Stereo Matching Network with Contrastive Feature Distillation. <br />
 **Z. Liu**, Y. Li, M.Okutomi  
-IEEE International Conference on Robotics and Automation (ICRA2024)  
+IEEE International Conference on Robotics and Automation (ICRA2024)<br />
 [[project page]](http://www.ok.sc.e.titech.ac.jp/res/FStereo/icra2024.html)&emsp;[[paper]](https://arxiv.org/abs/2402.18181)&emsp;[[code]]()  
 
-* Global Occlusion-Aware Transformer for Robust Stereo Matching.  
-**Z. Liu**, Y. Li, M.Okutomi  
-Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision(WACV 2024)  
-[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/wacv2024.html)&emsp;
-[[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Liu_Global_Occlusion-Aware_Transformer_for_Robust_Stereo_Matching_WACV_2024_paper.html)&emsp;[[code]](https://github.com/Magicboomliu/GOAT)  
+* Global Occlusion-Aware Transformer for Robust Stereo Matching.<br /> **Z. Liu**, Y. Li, M.Okutomi  
+Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision(WACV 2024) <br />[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/wacv2024.html)&emsp;[[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Liu_Global_Occlusion-Aware_Transformer_for_Robust_Stereo_Matching_WACV_2024_paper.html)&emsp;[[code]](https://github.com/Magicboomliu/GOAT)  
 
 
-* Digging Into Normal Incorporated Stereo Matching.  
+* Digging Into Normal Incorporated Stereo Matching.  <br />
 **Z. Liu**, S. Zhang, Z. Wang, M. Okutomi  
-Proceedings of the 30th ACM International Conference on Multimedia(ACM MM 2022) 
-[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/acmmm22.html)&emsp;
+Proceedings of the 30th ACM International Conference on Multimedia(ACM MM 2022)<br />[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/acmmm22.html)&emsp;
 [[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548312)&emsp;[[code]](https://github.com/Magicboomliu/NINet)  
-
   
 
 
