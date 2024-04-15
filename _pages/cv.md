@@ -63,4 +63,4 @@ Proceedings of the 30th ACM International Conference on Multimedia(ACM MM 2022)<
 
 Service and leadership
 ======
-* Guangdong Registrated Volunteer.
+* ACM MM 2024 Reviewer
