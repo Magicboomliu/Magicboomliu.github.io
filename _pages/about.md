@@ -35,6 +35,7 @@ Experience
 
 News
 ======
+* [07/2024] One paper were accepted by BMVC2024.
 * [02/2024] One paper were accepted by CVPR2024.
 * [02/2024] One paper were accepted by ICRA2024.
 * [10/2023] One paper were accepted by WACV2024. 
@@ -59,14 +60,18 @@ IEEE International Conference on Robotics and Automation (ICRA2024)<br />
 [[project page]](http://www.ok.sc.e.titech.ac.jp/res/FStereo/icra2024.html)&emsp;[[paper]](https://arxiv.org/abs/2402.18181)&emsp;[[code]]()  
 
 * Global Occlusion-Aware Transformer for Robust Stereo Matching.<br /> **Z. Liu**, Y. Li, M.Okutomi  
-Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision(WACV 2024) <br />[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/wacv2024.html)&emsp;[[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Liu_Global_Occlusion-Aware_Transformer_for_Robust_Stereo_Matching_WACV_2024_paper.html)&emsp;[[code]](https://github.com/Magicboomliu/GOAT)  
+Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2024) <br />[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/wacv2024.html)&emsp;[[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Liu_Global_Occlusion-Aware_Transformer_for_Robust_Stereo_Matching_WACV_2024_paper.html)&emsp;[[code]](https://github.com/Magicboomliu/GOAT)  
 
 
 * Digging Into Normal Incorporated Stereo Matching.  <br />
 **Z. Liu**, S. Zhang, Z. Wang, M. Okutomi  
-Proceedings of the 30th ACM International Conference on Multimedia(ACM MM 2022)<br />[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/acmmm22.html)&emsp;
+Proceedings of the 30th ACM International Conference on Multimedia (ACM MM 2022)<br />[[project page]](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/acmmm22.html)&emsp;
 [[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548312)&emsp;[[code]](https://github.com/Magicboomliu/NINet)  
 
+*  Disparity Estimation Using a Quad-pixel Sensor. <br /> 
+Z.Wu, D.Lee, **Z.Liu**, K.Yoshizaki, Y.Monno, M.Okutomi  
+The Thirty Fifth British Machine Vision Conference. (BMVC 2024)  
+[[project page]]()&emsp;[[paper]]()&emsp;[[code]]() 
 
 
 
