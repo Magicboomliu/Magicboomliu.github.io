@@ -32,18 +32,22 @@ Experience
    Shanghai, China  
    Supervisor: [Zhao Yang]() 
 
+*  **Tokyo Institute of Technology, Research Assistant**.  &emsp;&emsp;&emsp;&emsp; 2024/04/01- Now  
+   Tokyo, Japan  
+   Supervisor: [Masatoshi Okutomi]() 
+
 
 News
 ======
-* [07/2024] One paper were accepted by BMVC2024.
-* [02/2024] One paper were accepted by CVPR2024.
-* [02/2024] One paper were accepted by ICRA2024.
-* [10/2023] One paper were accepted by WACV2024. 
+* [07/2024] One paper were accepted by BMVC 2024.
+* [02/2024] One paper were accepted by CVPR 2024.
+* [02/2024] One paper were accepted by ICRA 2024.
+* [10/2023] One paper were accepted by WACV 2024. 
 * [06/2023] Start Intership at SenseTime Japan.
 * [04/2023] Receive Tokyo Tech Advanced Human Resource Development Fellowship.
 * [03/2023] Receive the SCIE Student Award. 
 * [03/2023] Receive Excellent Grauduation Paper Award Award.
-* [06/2022] One paper were accepted by ACM MM 2022.
+* [06/2022] One paper were accepted by ACMMM 2022.
 
 
 Publications 
