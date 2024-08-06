@@ -54,7 +54,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 ======
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
-        <img src="../images/vsrd_cvpr24.jpg" alt="CVPR 2024" style="width: 100%; max-width: 350px;"/>
+        <img src="../images/vsrd_cvpr24.jpg" alt="CVPR 2024" style="width: 100%; max-width: 400px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>VSRD: Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection. </h3>
@@ -67,7 +67,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
-        <img src="../images/icra24.png" alt="ICRA 2024" style="width: 100%; max-width: 350px;"/>
+        <img src="../images/icra2024.png" alt="ICRA 2024" style="width: 100%; max-width: 400px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>CFDNet: A Generalizable Foggy Stereo Matching Network with Contrastive Feature Distillation. </h3>
@@ -80,7 +80,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
-        <img src="../images/wacv24.png" alt="Wacv 2024" style="width: 100%; max-width: 350px; height: 5%; max-height: 280px"/>
+        <img src="../images/wacv24.png" alt="Wacv 2024" style="width: 100%; max-width: 400px; height: 5%; max-height: 280px"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Global Occlusion-Aware Transformer for Robust Stereo Matching. </h3>
@@ -93,7 +93,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
-        <img src="../images/acmmm22.png" alt="Wacv 2024" style="width: 100%; max-width: 350px; height: 5%; max-height: 280px"/>
+        <img src="../images/acmmm22.png" alt="Wacv 2024" style="width: 100%; max-width: 400px; height: 5%; max-height: 280px"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Digging Into Normal Incorporated Stereo Matching.  </h3>
@@ -108,7 +108,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
-        <img src="../images/bmvc24.png" alt="BMVC24" style="width: 100%; max-width: 350px; height: 5%; max-height: 280px"/>
+        <img src="../images/bmvc24.png" alt="BMVC24" style="width: 100%; max-width: 400px; height: 5%; max-height: 280px"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Disparity Estimation Using a Quad-pixel Sensor. </h3>
