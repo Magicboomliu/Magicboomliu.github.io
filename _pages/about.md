@@ -112,7 +112,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Disparity Estimation Using a Quad-pixel Sensor. </h3>
-        <p>Zhuofeng Wu, D.Lee, <b>Zihua Liu</b>, K.Yoshizaki, Masatoshi Okutomi <br> The Thirty Fifth British Machine Vision Conference. (BMVC 2024)  <br> <a href="">Paper</a>  &nbsp; &nbsp;   <a href="">Project Page</a> &nbsp; &nbsp; <a href="https://github.com/Zhuofeng-Wu/QPDNet">Code</a>
+        <p>Zhuofeng Wu, D.Lee, <b>Zihua Liu</b>, K.Yoshizaki, Masatoshi Okutomi <br> The Thirty Fifth British Machine Vision Conference. (BMVC 2024)  <br> <a href="https://arxiv.org/abs/2409.00665">Paper</a>  &nbsp; &nbsp;   <a href="http://www.ok.sc.e.titech.ac.jp/res/QP/index.html">Project Page</a> &nbsp; &nbsp; <a href="https://github.com/Zhuofeng-Wu/QPDNet">Code</a>  &nbsp; &nbsp; <a href="https://www.dropbox.com/scl/fi/0sijedbg2kdqetmw16s9t/QP-Data-Zhuofeng-Wu.zip?rlkey=m33xsb70b4ivk0riyvg4fgk2u&e=1&st=k2fn4zkq&dl=0">Dataset</a>
         </p>
     </div>
 </div>
@@ -133,5 +133,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 * Reviewer for the BMVC  &emsp;&emsp;&emsp;&emsp;2024   
 
 * Reviewer for the NeurIPS &emsp;&emsp;&emsp;&emsp;2024   
+
+* Reviewer for the ICLR &emsp;&emsp;&emsp;&emsp;2024   
 
 
