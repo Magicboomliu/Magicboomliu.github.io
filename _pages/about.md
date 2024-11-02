@@ -39,6 +39,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 🔔 News
 ======
+* [10/2024] One paper was accepted by MMM 2025.
 * [07/2024] One paper was accepted by BMVC 2024.
 * [02/2024] One paper was accepted by CVPR 2024.
 * [02/2024] One paper was accepted by ICRA 2024.
