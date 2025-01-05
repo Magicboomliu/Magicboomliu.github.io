@@ -19,7 +19,7 @@ Tokyo, Japan.
 🎓 Biography
 ======
 I am a second-year Ph.D. student in [Okutomi Lab](http://www.ok.sc.e.titech.ac.jp/), Dept. of System Control and Engineering, Tokyo Institue of Technology, advised by [Prof.Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html). Before that, I obtained my M.S. degree from the same school and my B.S. degree from South China University of Technology in July 2020.   
-My research interests lie in 3D vision and autonomous driving perception. Previously, I did some research on [Stereo Matching](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/main.html) and 3D detections, now I am focused on generative models. Besides, I am also a reviewer for top conferences including NeurIPS, ACMMM, BMVC, etc.
+My research interests lie in 3D vision and autonomous driving perception. Previously, I did some research on [Stereo Matching](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/main.html) and 3D detections, now I am focused on generative models. Besides, I am also a reviewer for top conferences including NeurIPS, ICLR, ICML,CVPR, etc.
 
 
 💼 Experience
@@ -34,7 +34,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 *  **Tokyo Institute of Technology, Research Assistant**.  &emsp;&emsp;&emsp;&emsp; 2024/04/01- Now  
    Tokyo, Japan  
-   Supervisor: [Masatoshi Okutomi]() 
+   Supervisor: [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi-j.html) 
 
 
 🔔 News
@@ -118,6 +118,19 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
     </div>
 </div>
 
+
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
+        <img src="../images/tdm.png" alt="MMM25" style="width: 100%; max-width: 250px; height: 5%; max-height: 280px"/>
+    </div>
+    <div style="flex: 1 1 300px; margin-left: 20px;">
+        <h3>TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration </h3>
+        <p>Yizhou Li, <b>Zihua Liu</b>,Yusuke Monno, Masatoshi Okutomi <br> MultiMedia Modeling: 31st International Conference on Multimedia Modeling, MMM <br> <a href="https://link.springer.com/chapter/10.1007/978-981-96-2071-5_12">Paper</a>  &nbsp; &nbsp;   <a href="http://www.ok.sc.e.titech.ac.jp/res/TDM/index.html">Project Page</a> &nbsp; &nbsp; <a href="https://github.com/Yizhou-Li-CV/TDM">Code</a>  
+        </p>
+    </div>
+</div>
+
+
 ---
 
 
@@ -129,6 +142,10 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 🤝  Services
 ======
+
+* Reviewer for the CVPR2025,ICML2025 and ICLR2025  &emsp;&emsp;&emsp;&emsp; 2025                  
+
+
 * Reviewer for the ACM International Conference on Multimedia  &emsp;&emsp;&emsp;&emsp; 2022,2024                  
 
 * Reviewer for the BMVC  &emsp;&emsp;&emsp;&emsp;2024   
