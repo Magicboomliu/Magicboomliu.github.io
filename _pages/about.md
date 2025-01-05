@@ -24,6 +24,11 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 💼 Experience
 ======
+*  **Preferred Networks, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2024/08/05-2024/09/30          
+   Tokyo, Japan  
+   Supervisor: [Taizan Yonetsuji](https://ieeexplore.ieee.org/author/38320112600)  
+
+
 *  **Sensetime Japan, Researcher Intern**.  &emsp;&emsp;&emsp;&emsp; 2023/06/05-2023/11/30          
    Tokyo, Japan  
    Supervisor: [Hiroki Sakuma](https://www.linkedin.com/in/hiroki-sakuma-9a20a4255/?originalSubdomain=jp)  
