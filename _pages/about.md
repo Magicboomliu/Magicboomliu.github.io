@@ -24,6 +24,11 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 💼 Experience
 ======
+*  **Sony, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/01/15- Now          
+   Tokyo, Japan  
+   Supervisor: [Guifen Tian](https://scholar.google.co.jp/citations?hl=ja&user=tBAN-dgAAAAJ&view_op=list_works&sortby=pubdate)  
+
+
 *  **Preferred Networks, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2024/08/05-2024/09/30          
    Tokyo, Japan  
    Supervisor: [Taizan Yonetsuji](https://ieeexplore.ieee.org/author/38320112600)  
@@ -44,6 +49,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 🔔 News
 ======
+* [01/2025] Our paper titled "TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration" has been selected as the Best Student Paper for MMM2025.
 * [10/2024] One paper was accepted by MMM 2025.
 * [07/2024] One paper was accepted by BMVC 2024.
 * [02/2024] One paper was accepted by CVPR 2024.
@@ -148,7 +154,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 🤝  Services
 ======
 
-* Reviewer for the CVPR2025,ICML2025 and ICLR2025  &emsp;&emsp;&emsp;&emsp; 2025                  
+* Reviewer for the CVPR2025, ICML2025 and ICLR2025  &emsp;&emsp;&emsp;&emsp; 2025                  
 
 
 * Reviewer for the ACM International Conference on Multimedia  &emsp;&emsp;&emsp;&emsp; 2022,2024                  
