@@ -52,7 +52,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 🔔 News
 ======
-<div class="news-container">
+
 * [01/2025] Our paper titled "TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration" has been selected as the Best Student Paper for MMM2025.
 * [10/2024] One paper was accepted by MMM 2025.
 * [07/2024] One paper was accepted by BMVC 2024.
@@ -64,7 +64,6 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 * [03/2023] Receive the SCIE Student Award. 
 * [03/2023] Receive Excellent Grauduation Paper Award Award.
 * [06/2022] One paper aws accepted by ACMMM 2022.
-</div>
 
 
 📝  Publications 
