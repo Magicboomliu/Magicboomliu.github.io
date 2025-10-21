@@ -1,0 +1,596 @@
+/* Cool Modern Homepage Styles */
+
+/* Page loader */
+.page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #667eea, #764ba2, #667eea);
+    background-size: 400% 400%;
+    animation: gradientShift 2s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.page-loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-content {
+    text-align: center;
+    color: white;
+}
+
+.loader-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Animated gradient background */
+body {
+    background: linear-gradient(-45deg, #f8f9fa, #e9ecef, #dee2e6, #f8f9fa);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Modern page title with gradient text */
+.page__title {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800 !important;
+    font-size: 2.5em !important;
+    margin-bottom: 0.3em !important;
+    animation: fadeInDown 0.8s ease-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Enhanced content sections */
+.page__content h2 {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(90deg, #667eea, #764ba2);
+    border-image-slice: 1;
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Cool publication cards */
+.page__content > div[style*="display: flex"] {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.page__content > div[style*="display: flex"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 0;
+}
+
+.page__content > div[style*="display: flex"]:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+    border-color: #667eea;
+}
+
+.page__content > div[style*="display: flex"]:hover::before {
+    opacity: 1;
+}
+
+.page__content > div[style*="display: flex"] > div {
+    position: relative;
+    z-index: 1;
+}
+
+/* Image hover effects */
+.page__content img {
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.page__content > div[style*="display: flex"]:hover img {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+/* Enhanced paper titles */
+.page__content h3 {
+    color: #2d3748;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    transition: color 0.3s ease;
+    line-height: 1.4;
+}
+
+.page__content > div[style*="display: flex"]:hover h3 {
+    color: #667eea;
+}
+
+/* Cool link buttons */
+.page__content a {
+    color: #667eea;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.page__content a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    transition: width 0.3s ease;
+}
+
+.page__content a:hover::after {
+    width: 100%;
+}
+
+.page__content a:hover {
+    color: #764ba2;
+    text-decoration: none;
+}
+
+/* News section styling */
+.page__content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.page__content ul li {
+    padding: 12px 20px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #667eea;
+    transition: all 0.3s ease;
+    animation: slideInLeft 0.5s ease-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.page__content ul li:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.2);
+    border-left-color: #764ba2;
+}
+
+/* Experience section */
+.page__content ul li strong {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #667eea, #764ba2, transparent);
+    margin: 40px 0;
+    border-radius: 2px;
+}
+
+/* Bio section */
+.page__content > p:first-of-type {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Author profile enhancements */
+.author__avatar img {
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    transition: all 0.4s ease;
+}
+
+.author__avatar:hover img {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+}
+
+/* Add subtle pulse animation to emoji */
+.page__content h2::before {
+    display: inline-block;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* Main content container */
+#main {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page__title {
+        font-size: 1.8em !important;
+    }
+    
+    #main {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    .page__content > div[style*="display: flex"] {
+        padding: 15px;
+    }
+}
+
+/* Parallax effect for sections */
+.page__content > * {
+    animation: fadeInUp 0.8s ease-out;
+    animation-fill-mode: both;
+}
+
+.page__content > *:nth-child(1) { animation-delay: 0.1s; }
+.page__content > *:nth-child(2) { animation-delay: 0.2s; }
+.page__content > *:nth-child(3) { animation-delay: 0.3s; }
+.page__content > *:nth-child(4) { animation-delay: 0.4s; }
+.page__content > *:nth-child(5) { animation-delay: 0.5s; }
+
+/* Enhanced paragraph styling */
+.page__content p {
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+/* Cool scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #764ba2 0%, #667eea 100%);
+}
+
+/* Back to top button */
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    z-index: 1000;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#back-to-top:hover {
+    transform: scale(1.1) rotate(360deg);
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.6);
+}
+
+/* Enhanced news container */
+.news-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Highlight special news items */
+.page__content .news-container ul li:first-child {
+    background: linear-gradient(135deg, rgba(245, 87, 108, 0.1), rgba(240, 147, 251, 0.1));
+    border-left-color: #f5576c;
+    font-weight: 600;
+}
+
+.page__content .news-container ul li:first-child::before {
+    content: "🏆 ";
+    margin-right: 5px;
+}
+
+/* Badge styles for dates in news */
+.page__content .news-container ul li::before {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Award badge style */
+.award-badge {
+    display: inline-block;
+    padding: 5px 15px;
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #333;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: 10px;
+    box-shadow: 0 3px 10px rgba(255, 215, 0, 0.4);
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); box-shadow: 0 5px 15px rgba(255, 215, 0, 0.6); }
+}
+
+/* Conference badges */
+.conf-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+
+.conf-badge.cvpr {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+    color: white;
+}
+
+.conf-badge.icra {
+    background: linear-gradient(135deg, #4ecdc4, #44a08d);
+    color: white;
+}
+
+.conf-badge.wacv {
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    color: #333;
+}
+
+.conf-badge.acmmm {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+/* Add glow effect to images on hover */
+.page__content img:hover {
+    filter: brightness(1.1) contrast(1.05);
+}
+
+/* Enhance experience section */
+.page__content ul li strong {
+    font-size: 1.1em;
+}
+
+/* Add icon animations */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.page__content h2::first-letter {
+    font-size: 1.3em;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+/* Loading animation for page */
+.page {
+    animation: slideInUp 0.8s ease-out;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Gradient text for section headers */
+.page__content h2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Add focus ring for accessibility */
+a:focus, button:focus {
+    outline: 3px solid #667eea;
+    outline-offset: 3px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    #back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+    
+    .news-container {
+        padding: 20px;
+    }
+    
+    .page__content > div[style*="display: flex"] {
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white !important;
+    }
+    
+    #back-to-top {
+        display: none !important;
+    }
+    
+    .page__content > div[style*="display: flex"] {
+        box-shadow: none !important;
+        border: 1px solid #ddd;
+        page-break-inside: avoid;
+    }
+}
+
+/* Accessibility: Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Enhanced link styles within content */
+.page__content p a,
+.page__content li a {
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.page__content p a:hover,
+.page__content li a:hover {
+    transform: translateX(3px);
+    display: inline-block;
+}
+
+/* Highlight current section */
+.page__content h2 {
+    position: relative;
+    padding-left: 15px;
+}
+
+.page__content h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 70%;
+    background: linear-gradient(180deg, #667eea, #764ba2);
+    border-radius: 3px;
+}
+
