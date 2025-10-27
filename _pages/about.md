@@ -52,7 +52,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 🔔 News
 ======
-* [07/2025] Our Paper "DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation." has been accepted by ICCV AIM Workshop for oral presentation.
+* [07/2025] Our Paper "DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation." has been accepted by ICCV2025 AIM Workshop for oral presentation.
 * [01/2025] Our paper titled "TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration" has been selected as the Best Student Paper for MMM2025.
 * [10/2024] One paper was accepted by MMM 2025.
 * [07/2024] One paper was accepted by BMVC 2024.
