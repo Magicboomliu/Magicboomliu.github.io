@@ -27,7 +27,12 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 💼 Experience
 ======
-*  **Sony, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/01/15- Now          
+*  **Woven by Toyota, Machine Learning Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/08/01~  
+Tokyo, Japan
+Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
+
+
+*  **Sony, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/01/15- 2025/03/31          
    Tokyo, Japan  
    Supervisor: [Guifen Tian](https://scholar.google.co.jp/citations?hl=ja&user=tBAN-dgAAAAJ&view_op=list_works&sortby=pubdate)  
 
