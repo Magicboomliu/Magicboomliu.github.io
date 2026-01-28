@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[My CV(PDF)](/files/Liuzihua_resume_en.pdf)  
+[My CV(PDF)](/files/ZihuaLiu_Resume.pdf)  
 
 
 

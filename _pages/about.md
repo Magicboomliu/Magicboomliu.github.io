@@ -21,7 +21,7 @@ redirect_from:
 
 🎓 Biography
 ======
-I am a final year Ph.D. student in [Okutomi Lab](http://www.ok.sc.e.titech.ac.jp/), Dept. of System Control and Engineering, Institute of Science Tokyo, advised by [Prof.Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html). Before that, I obtained my M.S. degree from the same school and my B.S. degree from South China University of Technology in July 2020.   
+I am currently the PhD Candidate in [Okutomi Lab](http://www.ok.sc.e.titech.ac.jp/), Dept. of System Control and Engineering, Institute of Science Tokyo, advised by [Prof.Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html). Before that, I obtained my M.S. degree from the same school and my B.S. degree from South China University of Technology in July 2020.   
 My research interests lie in 3D vision and autonomous driving perception. Previously, I did some research on [Stereo Matching](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/main.html) and 3D detections, now I am focused on generative models. Besides, I am also a reviewer for top conferences including NeurIPS, ICLR, ICML,CVPR, etc.
 
 
@@ -57,6 +57,7 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 
 🔔 News
 ======
+* [01/2026] I have completed my PhD defense presentation for the doctoral thesis in the Institute of Science, Tokyo, titled "Deep Learning Based Stereo Vision: From Robust Stereo Matching to Feed-Forward 3D Reconstruction."
 * [07/2025] Our Paper "DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation." has been accepted by ICCV2025 AIM Workshop for oral presentation.
 * [01/2025] Our paper titled "TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration" has been selected as the Best Student Paper for MMM2025.
 * [10/2024] One paper was accepted by MMM 2025.
