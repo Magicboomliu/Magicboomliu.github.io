@@ -11,7 +11,7 @@ redirect_from:
 <div class="header-info" style="text-align: center; margin-bottom: 2em; padding: 1.5em; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 15px;">
   <h3 style="margin: 0; color: #667eea;">📧 zliu@ok.sc.e.titech.ac.jp</h3>
   <p style="margin: 0.5em 0 0 0; font-size: 1.1em; color: #4a5568;">
-    <strong>Machine Learning Engineer (Full-time)</strong><br>
+    <strong>Machine Learning Engineer</strong><br>
     Woven by Toyota<br>
     Woven City Management — Digital Twin Platform<br>
     Tokyo, Japan
