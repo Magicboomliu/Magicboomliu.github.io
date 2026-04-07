@@ -11,23 +11,26 @@ redirect_from:
 <div class="header-info" style="text-align: center; margin-bottom: 2em; padding: 1.5em; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 15px;">
   <h3 style="margin: 0; color: #667eea;">📧 zliu@ok.sc.e.titech.ac.jp</h3>
   <p style="margin: 0.5em 0 0 0; font-size: 1.1em; color: #4a5568;">
-    <strong>Ph.D Candidate</strong><br>
-    Room 307, South Building 5<br>
-    Dept. of System Control and Engineering<br>
-    Tokyo Institute of Technology, Tokyo, Japan
+    <strong>Machine Learning Engineer (Full-time)</strong><br>
+    Woven by Toyota<br>
+    Woven City Management — Digital Twin Platform<br>
+    Tokyo, Japan
   </p>
 </div>
 
 
 🎓 Biography
 ======
-I am currently the PhD Candidate in [Okutomi Lab](http://www.ok.sc.e.titech.ac.jp/), Dept. of System Control and Engineering, Institute of Science Tokyo, advised by [Prof.Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html). Before that, I obtained my M.S. degree from the same school and my B.S. degree from South China University of Technology in July 2020.   
-My research interests lie in 3D vision and autonomous driving perception. Previously, I did some research on [Stereo Matching](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/main.html) and 3D detections, now I am focused on generative models. Besides, I am also a reviewer for top conferences including NeurIPS, ICLR, ICML,CVPR, etc.
+I am currently a full-time Machine Learning Engineer at Woven by Toyota, working in the Woven City Management organization on the Digital Twin Platform. My current interests focus on computer vision for logistics and vision-language models (VLMs). Previously, my research focused on 3D vision and autonomous driving perception, including [Stereo Matching](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/main.html) and 3D detection, and I also explored generative models. Besides, I serve as a reviewer for top conferences including NeurIPS, ICLR, ICML, CVPR, etc.
 
 
 💼 Experience
 ======
-*  **Woven by Toyota, Machine Learning Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/08/01~  
+*  **Woven by Toyota, Machine Learning Engineer (Permanent)**.  &emsp;&emsp;&emsp;&emsp; 2026/04/01~  
+    Tokyo, Japan  
+    Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
+
+*  **Woven by Toyota, Machine Learning Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/08/01-2026/03/31  
     Tokyo, Japan  
     Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
 
@@ -66,11 +69,11 @@ My research interests lie in 3D vision and autonomous driving perception. Previo
 * [02/2024] One paper was accepted by CVPR 2024.
 * [02/2024] One paper was accepted by ICRA 2024.
 * [10/2023] One paper was accepted by WACV 2024. 
-* [06/2023] Start Intership at SenseTime Japan.
-* [04/2023] Receive Tokyo Tech Advanced Human Resource Development Fellowship.
-* [03/2023] Receive the SCIE Student Award. 
-* [03/2023] Receive Excellent Grauduation Paper Award Award.
-* [06/2022] One paper aws accepted by ACMMM 2022.
+* [06/2023] Started internship at SenseTime Japan.
+* [04/2023] Received Tokyo Tech Advanced Human Resource Development Fellowship.
+* [03/2023] Received the SCIE Student Award. 
+* [03/2023] Received Excellent Graduation Paper Award.
+* [06/2022] One paper was accepted by ACM MM 2022.
 
 
 📝  Publications 
