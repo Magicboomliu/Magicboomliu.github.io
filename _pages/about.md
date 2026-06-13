@@ -60,6 +60,7 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
 
 🔔 News
 ======
+* [06/2026] Received Best Paper Award, Symposium on Sensing via Image Information ([SSII](http://www.ok.sc.e.titech.ac.jp/topic/SSII2026Wu.jpg)).
 * [03/2026] I have received the "Graduate Research Encouragement Award" from the Society of Automotive Engineers of Japan (JSAE).
 * [01/2026] I have completed my PhD defense presentation for the doctoral thesis in the Institute of Science, Tokyo, titled "Deep Learning Based Stereo Vision: From Robust Stereo Matching to Feed-Forward 3D Reconstruction."
 * [07/2025] Our Paper "DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation." has been accepted by ICCV2025 AIM Workshop for oral presentation.
