@@ -136,12 +136,12 @@ html {
     }
     
     /* News scroll on mobile */
-    .page__content #news + ul {
+    .page__content h2:nth-of-type(3) + ul {
         padding: 15px;
         gap: 12px;
     }
     
-    .page__content #news + ul li {
+    .page__content h2:nth-of-type(3) + ul li {
         min-width: 240px;
         max-width: 280px;
     }
@@ -203,7 +203,7 @@ html {
 }
 
 /* News section with horizontal scroll - minimal style */
-.page__content #news + ul {
+.page__content h2:nth-of-type(3) + ul {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -220,7 +220,7 @@ html {
 }
 
 /* Scroll indicator hint - static, no hover */
-.page__content #news + ul::after {
+.page__content h2:nth-of-type(3) + ul::after {
     content: '→';
     position: absolute;
     right: 10px;
@@ -232,7 +232,7 @@ html {
 }
 
 /* News items - card style for horizontal scroll */
-.page__content #news + ul li {
+.page__content h2:nth-of-type(3) + ul li {
     flex: 0 0 auto;
     min-width: 280px;
     max-width: 320px;
@@ -245,17 +245,30 @@ html {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+/* Highlight Best Paper - first news item */
+.page__content h2:nth-of-type(3) + ul li:first-child {
+    background: linear-gradient(135deg, rgba(245, 87, 108, 0.05), rgba(240, 147, 251, 0.05));
+    border-left-color: #f5576c;
+    font-weight: 600;
+}
+
+/* Add trophy emoji for best paper */
+.page__content h2:nth-of-type(3) + ul li:first-child::before {
+    content: "🏆 ";
+    margin-right: 5px;
+}
+
 /* Custom scrollbar for News section - no hover effects */
-.page__content #news + ul::-webkit-scrollbar {
+.page__content h2:nth-of-type(3) + ul::-webkit-scrollbar {
     height: 8px;
 }
 
-.page__content #news + ul::-webkit-scrollbar-track {
+.page__content h2:nth-of-type(3) + ul::-webkit-scrollbar-track {
     background: #e2e8f0;
     border-radius: 4px;
 }
 
-.page__content #news + ul::-webkit-scrollbar-thumb {
+.page__content h2:nth-of-type(3) + ul::-webkit-scrollbar-thumb {
     background: #cbd5e0;
     border-radius: 4px;
 }
@@ -366,116 +379,3 @@ a:focus, button:focus {
 
 /* Keep links simple */
 
-
-
-/* About page introduction */
-.about-hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-    align-items: start;
-    gap: clamp(1.2rem, 3vw, 2rem);
-    padding: clamp(1.25rem, 4vw, 2.4rem);
-    border: 1px solid #253c56;
-    border-radius: 16px;
-    background: #101e31;
-    color: #f3f7fb;
-}
-
-.page__content .about-hero h2,
-.page__content .about-hero h3 {
-    color: #f3f7fb;
-    border: 0;
-    padding: 0;
-    margin: 0 0 0.65rem;
-}
-
-.page__content .about-hero h2 {
-    font-size: clamp(1.7rem, 3vw, 2.6rem);
-    line-height: 1.13;
-    letter-spacing: -0.025em;
-}
-
-.page__content .about-hero p {
-    color: #d6e2ee;
-    margin: 0 0 1rem;
-    line-height: 1.6;
-}
-
-.page__content .about-hero .about-hero__eyebrow {
-    color: #a4eadc;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.035em;
-}
-
-.about-hero__actions {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5rem 1rem;
-}
-
-.page__content .about-hero__actions a {
-    display: inline-block;
-    padding: 0.55rem 0;
-    color: #b5efe4;
-    font-weight: 700;
-    font-size: 0.85rem;
-}
-
-.page__content .about-hero__actions .about-hero__primary {
-    background: #b5efe4;
-    color: #11283a;
-    border-radius: 7px;
-    padding-inline: 0.85rem;
-}
-
-.about-hero__system {
-    padding: 1rem;
-    background: #182c43;
-    border: 1px solid #3a536e;
-    border-radius: 12px;
-}
-
-.page__content .about-hero__system h3 {
-    font-size: 1rem;
-}
-
-.about-hero__system ol {
-    display: grid;
-    gap: 0.55rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.about-hero__system li {
-    display: grid;
-    grid-template-columns: 1.65rem minmax(0, 1fr);
-    align-items: start;
-    gap: 0.35rem;
-    color: #d6e2ee;
-    font-size: 0.84rem;
-    line-height: 1.4;
-    margin: 0;
-}
-
-.about-hero__system li span {
-    color: #a4eadc;
-    font-weight: 700;
-    font-variant-numeric: tabular-nums;
-}
-
-.page__content .about-research-note {
-    margin-top: 1rem;
-}
-
-#selected-research {
-    scroll-margin-top: 1.5rem;
-}
-
-@media (max-width: 850px) {
-    .about-hero {
-        grid-template-columns: minmax(0, 1fr);
-    }
-}
