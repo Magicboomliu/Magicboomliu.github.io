@@ -64,7 +64,7 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
 * [06/2026] Received Best Paper Award, Symposium on Sensing via Image Information ([SSII 2025](http://www.ok.sc.e.titech.ac.jp/topic/SSII2026Wu.jpg)).
 * [03/2026] I have received the "Graduate Research Encouragement Award" from the Society of Automotive Engineers of Japan (JSAE).
 * [01/2026] I have completed my PhD defense presentation for the doctoral thesis in the Institute of Science, Tokyo, titled "Deep Learning Based Stereo Vision: From Robust Stereo Matching to Feed-Forward 3D Reconstruction."
-* [07/2025] Our Paper "DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation." has been accepted by ICCV2025 AIM Workshop for oral presentation.
+* [07/2025] Our paper [DMS](#dms-iccvw2025) was accepted for an oral presentation at the ICCV 2025 AIM Workshop.
 * [01/2025] Our paper titled "TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration" has been selected as the Best Student Paper for MMM2025.
 * [10/2024] One paper was accepted by MMM 2025.
 * [07/2024] One paper was accepted by BMVC 2024.
@@ -94,6 +94,25 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
             <a href="http://www.ok.sc.e.titech.ac.jp/res/StereoSplat-Plus-Website/">🌐 Project</a> &nbsp; &nbsp;
             <a href="https://github.com/Magicboomliu/StereoSplat_Plus">💻 Code</a> &nbsp; &nbsp;
             <a href="http://www.ok.sc.e.titech.ac.jp/res/StereoSplat-Plus-Website/#video">▶ Demo</a>
+        </p>
+    </div>
+</div>
+
+---
+
+<div id="dms-iccvw2025" style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
+    <div style="flex: 1 1 270px; min-width: 0;">
+        <a href="{{ '/publication/iccvw2025' | relative_url }}#dms-pipeline">
+            <img src="{{ '/images/dms-iccvw2025.png' | relative_url }}" alt="DMS pipeline for generating multi-baseline stereo views and training a self-supervised depth estimator" width="2047" height="1213" loading="lazy" style="width: 100%; max-width: 400px; height: auto;"/>
+        </a>
+    </div>
+    <div style="flex: 1 1 270px; min-width: 0;">
+        <h3><span class="conf-badge" style="background: linear-gradient(135deg, #8a3f12, #9b2850); color: white;">ICCVW 2025</span> DMS: Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation</h3>
+        <p><b>Zihua Liu</b>, Yizhou Li, Songyan Zhang, Masatoshi Okutomi<br>
+            ICCV 2025 AIM Workshop · Oral Presentation<br>
+            <a href="https://openaccess.thecvf.com/content/ICCV2025W/AIM/html/Liu_DMS_Diffusion-Based_Multi-Baseline_Stereo_Generation_for_Improving_Self-Supervised_Depth_Estimation_ICCVW_2025_paper.html">📄 Paper</a> &nbsp; &nbsp;
+            <a href="https://github.com/Magicboomliu/DMS">💻 Code</a> &nbsp; &nbsp;
+            <a href="https://openaccess.thecvf.com/content/ICCV2025W/AIM/supplemental/Liu_DMS_Diffusion-Based_Multi-Baseline_ICCVW_2025_supplemental.pdf">📎 Supplement</a>
         </p>
     </div>
 </div>
