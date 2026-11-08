@@ -1,85 +1,39 @@
 ---
 permalink: /
 title: "Zihua Liu (刘子桦)"
-excerpt: "About me"
+excerpt: "Machine learning engineer at Woven by Toyota working on logistics digital twins, multimodal perception, and GPU ML workflows."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<div class="header-info" style="text-align: center; margin-bottom: 2em; padding: 1.5em; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 15px;">
-  <h3 style="margin: 0; color: #667eea;">📧 zliu@ok.sc.e.titech.ac.jp</h3>
-  <p style="margin: 0.5em 0 0 0; font-size: 1.1em; color: #4a5568;">
-    <strong>Machine Learning Engineer</strong><br>
-    Woven by Toyota<br>
-    Woven City Management — Digital Twin Platform<br>
-    Tokyo, Japan
-  </p>
-</div>
+<section class="about-hero" aria-labelledby="about-focus">
+  <div class="about-hero__intro">
+    <p class="about-hero__eyebrow">Machine Learning Engineer · Woven by Toyota</p>
+    <h2 id="about-focus">Multimodal ML for logistics digital twins</h2>
+    <p>I build perception systems that reconstruct logistics sites in 3D, track activity across cameras, and use vision-language models to reason about what happened. I run GPU training and inference workflows on AWS and deliver reusable capabilities to customer teams in Japan and overseas.</p>
+    <div class="about-hero__actions">
+      <a class="about-hero__primary" href="{{ '/files/ZihuaLiu_Resume.pdf' | relative_url }}">Download CV <span aria-hidden="true">↓</span></a>
+      <a href="#selected-research">Selected research <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
 
+  <div class="about-hero__system">
+    <h3>Digital Genba pipeline</h3>
+    <ol>
+      <li><span>01</span> Multimodal data capture</li>
+      <li><span>02</span> 3D Gaussian Splatting reconstruction</li>
+      <li><span>03</span> Multi-camera detection and tracking</li>
+      <li><span>04</span> VLM behavior analysis and reasoning</li>
+    </ol>
+  </div>
+</section>
 
-🎓 Biography
-======
-I am currently a full-time Machine Learning Engineer at Woven by Toyota, working in the Woven City Management organization on the Digital Twin Platform. My current interests focus on computer vision for logistics and vision-language models (VLMs). Previously, my research focused on 3D vision and autonomous driving perception, including [Stereo Matching](http://www.ok.sc.e.titech.ac.jp/res/DeepSM/main.html) and 3D detection, and I also explored generative models. Besides, I serve as a reviewer for top conferences including NeurIPS, ICLR, ICML, CVPR, etc.
+<p class="about-research-note">I hold a Ph.D. in Engineering from the Institute of Science Tokyo and have over five years of combined research and engineering experience. My research focuses on stereo vision, 3D reconstruction, and diffusion models, with work at CVPR, IROS, and the ICCV AIM Workshop.</p>
 
+<h2 id="selected-research">Selected Research</h2>
 
-💼 Experience
-======
-*  **Woven by Toyota, Machine Learning Engineer (Permanent)**.  &emsp;&emsp;&emsp;&emsp; 2026/04/01~  
-    Tokyo, Japan  
-    Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
-
-*  **Woven by Toyota, Machine Learning Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/08/01-2026/03/31  
-    Tokyo, Japan  
-    Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
-
-
-*  **Sony, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/01/15- 2025/03/31          
-   Tokyo, Japan  
-   Supervisor: [Guifen Tian](https://scholar.google.co.jp/citations?hl=ja&user=tBAN-dgAAAAJ&view_op=list_works&sortby=pubdate)  
-
-
-*  **Preferred Networks, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2024/08/05-2024/09/30          
-   Tokyo, Japan  
-   Supervisor: [Taizan Yonetsuji](https://ieeexplore.ieee.org/author/38320112600)  
-
-
-*  **Sensetime Japan, Researcher Intern**.  &emsp;&emsp;&emsp;&emsp; 2023/06/05-2023/11/30          
-   Tokyo, Japan  
-   Supervisor: [Hiroki Sakuma](https://www.linkedin.com/in/hiroki-sakuma-9a20a4255/?originalSubdomain=jp)  
-
-*  **MEGVII, Computer Vision Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2022/01/05-2022/03/30  
-   Shanghai, China  
-   Supervisor: [Zhao Yang]() 
-
-*  **Tokyo Institute of Technology, Research Assistant**.  &emsp;&emsp;&emsp;&emsp; 2024/04/01- Now  
-   Tokyo, Japan  
-   Supervisor: [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi-j.html) 
-
-
-🔔 News
-======
-* [06/2026] Our paper [StereoSplat+](#stereosplat-plus) was accepted at IROS 2026. The [arXiv preprint](https://arxiv.org/abs/2607.08808) is available.
-* [06/2026] Received Best Paper Award, Symposium on Sensing via Image Information ([SSII 2025](http://www.ok.sc.e.titech.ac.jp/topic/SSII2026Wu.jpg)).
-* [03/2026] I have received the "Graduate Research Encouragement Award" from the Society of Automotive Engineers of Japan (JSAE).
-* [01/2026] I have completed my PhD defense presentation for the doctoral thesis in the Institute of Science, Tokyo, titled "Deep Learning Based Stereo Vision: From Robust Stereo Matching to Feed-Forward 3D Reconstruction."
-* [07/2025] Our paper [DMS](#dms-iccvw2025) was accepted for an oral presentation at the ICCV 2025 AIM Workshop.
-* [01/2025] Our paper titled "TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration" has been selected as the Best Student Paper for MMM2025.
-* [10/2024] One paper was accepted by MMM 2025.
-* [07/2024] One paper was accepted by BMVC 2024.
-* [02/2024] One paper was accepted by CVPR 2024.
-* [02/2024] One paper was accepted by ICRA 2024.
-* [10/2023] One paper was accepted by WACV 2024. 
-* [06/2023] Started internship at SenseTime Japan.
-* [04/2023] Received Tokyo Tech Advanced Human Resource Development Fellowship.
-* [03/2023] Received the SCIE Student Award. 
-* [03/2023] Received Excellent Graduation Paper Award.
-* [06/2022] One paper was accepted by ACM MM 2022.
-
-
-📝  Publications 
-======
 <div id="stereosplat-plus" style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
     <div style="flex: 1 1 270px; min-width: 0;">
         <a href="{{ '/publication/iros2026' | relative_url }}#stereosplat-pipeline">
@@ -124,8 +78,8 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
         <img src="../images/vsrd_cvpr24.jpg" alt="CVPR 2024" style="width: 100%; max-width: 400px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
-        <h3><span class="conf-badge cvpr">CVPR 2024</span> VSRD: Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection. </h3>
-        <p><b>Zihua Liu*</b>, Hiriki Sakuma, Masatoshi Okutomi<br>  Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition. <br> <a href="https://arxiv.org/abs/2404.00149">📄 Paper</a>  &nbsp; &nbsp;   <a href="http://www.ok.sc.e.titech.ac.jp/res/VSRD/">🌐 Project</a> &nbsp; &nbsp; <a href="https://github.com/skmhrk1209/VSRD">💻 Code</a>
+        <h3><span class="conf-badge cvpr">CVPR 2024</span> VSRD: Instance-Aware Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection </h3>
+        <p><b>Zihua Liu*</b>, Hiroki Sakuma, Masatoshi Okutomi<br>  Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition. <br> <a href="https://arxiv.org/abs/2404.00149">📄 Paper</a>  &nbsp; &nbsp;   <a href="http://www.ok.sc.e.titech.ac.jp/res/VSRD/">🌐 Project</a> &nbsp; &nbsp; <a href="https://github.com/skmhrk1209/VSRD">💻 Code</a>
         </p>
     </div>
 </div>
@@ -196,10 +150,56 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
     </div>
 </div>
 
+<h2 id="experience">Experience</h2>
 
----
+*  **Woven by Toyota, Machine Learning Engineer (Permanent)** · 2026/04/01~<br>
+    Tokyo, Japan. I build the multimodal perception pipeline for logistics digital twins and the AWS workflows that run GPU training and inference.<br>
+    Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
+
+*  **Woven by Toyota, Machine Learning Engineering Intern** · 2025/08/01-2026/03/31<br>
+    Tokyo, Japan<br>
+    Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
 
 
+*  **Sony, R&D Intern** · 2025/01/15- 2025/03/31<br>
+   Tokyo, Japan. Trained a multi-view diffusion model on the GAIA GPU cluster using synchronized LiDAR, imagery, 3D boxes, and text.<br>
+   Supervisor: [Guifen Tian](https://scholar.google.co.jp/citations?hl=ja&user=tBAN-dgAAAAJ&view_op=list_works&sortby=pubdate)
+
+
+*  **Preferred Networks, R&D Intern** · 2024/08/05-2024/09/30<br>
+   Tokyo, Japan<br>
+   Supervisor: [Taizan Yonetsuji](https://ieeexplore.ieee.org/author/38320112600)
+
+
+*  **SenseTime Japan, Researcher Intern** · 2023/06/05-2023/11/30<br>
+   Tokyo, Japan. Co-developed VSRD (CVPR 2024), using 2D masks to generate 3D pseudo-labels without manual 3D box annotations for training.<br>
+   Supervisor: [Hiroki Sakuma](https://www.linkedin.com/in/hiroki-sakuma-9a20a4255/?originalSubdomain=jp)
+
+*  **MEGVII, Computer Vision Engineering Intern** · 2022/01/05-2022/03/30<br>
+   Shanghai, China. Improved parking-slot detection recall by 10%. The model was adopted in Megvii’s automatic-parking perception pipeline.
+
+*  **Tokyo Institute of Technology, Research Assistant** · 2024/04/01- Now<br>
+   Tokyo, Japan<br>
+   Supervisor: [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi-j.html)
+
+<h2 id="news">News</h2>
+
+* [06/2026] Our paper [StereoSplat+](#stereosplat-plus) was accepted at IROS 2026. The [arXiv preprint](https://arxiv.org/abs/2607.08808) is available.
+* [06/2026] Received Best Paper Award, Symposium on Sensing via Image Information ([SSII 2025](http://www.ok.sc.e.titech.ac.jp/topic/SSII2026Wu.jpg)).
+* [03/2026] I have received the "Graduate Research Encouragement Award" from the Society of Automotive Engineers of Japan (JSAE).
+* [01/2026] I have completed my PhD defense presentation for the doctoral thesis in the Institute of Science, Tokyo, titled "Deep Learning Based Stereo Vision: From Robust Stereo Matching to Feed-Forward 3D Reconstruction."
+* [07/2025] Our paper [DMS](#dms-iccvw2025) was accepted for an oral presentation at the ICCV 2025 AIM Workshop.
+* [01/2025] Our paper titled "TDM: Temporally-Consistent Diffusion Model for All-in-One Real-World Video Restoration" has been selected as the Best Student Paper for MMM2025.
+* [10/2024] One paper was accepted by MMM 2025.
+* [07/2024] One paper was accepted by BMVC 2024.
+* [02/2024] One paper was accepted by CVPR 2024.
+* [02/2024] One paper was accepted by ICRA 2024.
+* [10/2023] One paper was accepted by WACV 2024.
+* [06/2023] Started internship at SenseTime Japan.
+* [04/2023] Received Tokyo Tech Advanced Human Resource Development Fellowship.
+* [03/2023] Received the SCIE Student Award.
+* [03/2023] Received Excellent Graduation Paper Award.
+* [06/2022] One paper was accepted by ACM MM 2022.
 
 🏅 Honors & Awards 
 ======
