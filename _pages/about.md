@@ -60,7 +60,7 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
 
 🔔 News
 ======
-* [06/2026] Our Paper: "StereoSplat+: Feed-Forward Stereo Gaussian Splatting with Diffusion-Assisted Progressive Inference" has been accepted by IROS2026.
+* [06/2026] Our paper [StereoSplat+](#stereosplat-plus) was accepted at IROS 2026. The [arXiv preprint](https://arxiv.org/abs/2607.08808) is available.
 * [06/2026] Received Best Paper Award, Symposium on Sensing via Image Information ([SSII 2025](http://www.ok.sc.e.titech.ac.jp/topic/SSII2026Wu.jpg)).
 * [03/2026] I have received the "Graduate Research Encouragement Award" from the Society of Automotive Engineers of Japan (JSAE).
 * [01/2026] I have completed my PhD defense presentation for the doctoral thesis in the Institute of Science, Tokyo, titled "Deep Learning Based Stereo Vision: From Robust Stereo Matching to Feed-Forward 3D Reconstruction."
@@ -80,6 +80,17 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
 
 📝  Publications 
 ======
+<div id="stereosplat-plus">
+    <h3><span class="conf-badge">IROS 2026</span> StereoSplat+: Feed-Forward Stereo Gaussian Splatting with Diffusion-Assisted Progressive Inference</h3>
+    <p><b>Zihua Liu</b>, Masatoshi Okutomi<br>
+        IEEE/RSJ International Conference on Intelligent Robots and Systems<br>
+        <a href="https://arxiv.org/abs/2607.08808">📄 Paper (arXiv)</a> &nbsp; &nbsp;
+        <a href="{{ '/publication/iros2026' | relative_url }}">Publication details</a>
+    </p>
+</div>
+
+---
+
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
         <img src="../images/vsrd_cvpr24.jpg" alt="CVPR 2024" style="width: 100%; max-width: 400px;"/>
