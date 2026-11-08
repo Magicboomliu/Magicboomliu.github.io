@@ -379,3 +379,33 @@ a:focus, button:focus {
 
 /* Keep links simple */
 
+
+
+/* Organization logos in the About experience list */
+.page__content li:has(.experience-logo) {
+    --experience-logo-width: 80px;
+    position: relative;
+    padding-inline-start: calc(var(--experience-logo-width) + 28px);
+}
+
+.page__content .experience-logo {
+    position: absolute;
+    inset-block-start: 10px;
+    inset-inline-start: 12px;
+    width: var(--experience-logo-width);
+    height: 30px;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+@media (max-width: 480px) {
+    .page__content li:has(.experience-logo) {
+        --experience-logo-width: 56px;
+        padding-inline-start: calc(var(--experience-logo-width) + 20px);
+    }
+
+    .page__content .experience-logo {
+        inset-inline-start: 8px;
+    }
+}

@@ -26,34 +26,34 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
 
 💼 Experience
 ======
-*  **Woven by Toyota, Machine Learning Engineer (Permanent)**.  &emsp;&emsp;&emsp;&emsp; 2026/04/01~  
+*  <img class="experience-logo" src="{{ '/images/experience/woven.png' | relative_url }}" alt="" width="80" height="30" loading="lazy" title="Source: Woven by Toyota" /> **Woven by Toyota, Machine Learning Engineer (Permanent)**.  &emsp;&emsp;&emsp;&emsp; 2026/04/01~<br />
     Tokyo, Japan  
     Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
 
-*  **Woven by Toyota, Machine Learning Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/08/01-2026/03/31  
+*  <img class="experience-logo" src="{{ '/images/experience/woven.png' | relative_url }}" alt="" width="80" height="30" loading="lazy" title="Source: Woven by Toyota" /> **Woven by Toyota, Machine Learning Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/08/01-2026/03/31<br />
     Tokyo, Japan  
     Mentor: [Suxing Lyu](https://www.linkedin.com/in/suxing-lyu/?originalSubdomain=jp)
 
 
-*  **Sony, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/01/15- 2025/03/31          
+*  <img class="experience-logo" src="{{ '/images/experience/sony.svg' | relative_url }}" alt="" width="80" height="30" loading="lazy" /> **Sony, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2025/01/15- 2025/03/31<br />
    Tokyo, Japan  
    Supervisor: [Guifen Tian](https://scholar.google.co.jp/citations?hl=ja&user=tBAN-dgAAAAJ&view_op=list_works&sortby=pubdate)  
 
 
-*  **Preferred Networks, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2024/08/05-2024/09/30          
+*  <img class="experience-logo" src="{{ '/images/experience/preferred-networks.svg' | relative_url }}" alt="" width="80" height="30" loading="lazy" /> **Preferred Networks, R&D Intern**.  &emsp;&emsp;&emsp;&emsp; 2024/08/05-2024/09/30<br />
    Tokyo, Japan  
    Supervisor: [Taizan Yonetsuji](https://ieeexplore.ieee.org/author/38320112600)  
 
 
-*  **Sensetime Japan, Researcher Intern**.  &emsp;&emsp;&emsp;&emsp; 2023/06/05-2023/11/30          
+*  <img class="experience-logo" src="{{ '/images/experience/sensetime.png' | relative_url }}" alt="" width="80" height="30" loading="lazy" /> **Sensetime Japan, Researcher Intern**.  &emsp;&emsp;&emsp;&emsp; 2023/06/05-2023/11/30<br />
    Tokyo, Japan  
    Supervisor: [Hiroki Sakuma](https://www.linkedin.com/in/hiroki-sakuma-9a20a4255/?originalSubdomain=jp)  
 
-*  **MEGVII, Computer Vision Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2022/01/05-2022/03/30  
+*  <img class="experience-logo" src="{{ '/images/experience/megvii.png' | relative_url }}" alt="" width="80" height="30" loading="lazy" /> **MEGVII, Computer Vision Engineering Intern**.  &emsp;&emsp;&emsp;&emsp; 2022/01/05-2022/03/30<br />
    Shanghai, China  
    Supervisor: [Zhao Yang]() 
 
-*  **Tokyo Institute of Technology, Research Assistant**.  &emsp;&emsp;&emsp;&emsp; 2024/04/01- Now  
+*  <img class="experience-logo" src="{{ '/images/experience/tokyo-tech.svg' | relative_url }}" alt="" width="80" height="30" loading="lazy" /> **Tokyo Institute of Technology, Research Assistant**.  &emsp;&emsp;&emsp;&emsp; 2024/04/01- Now<br />
    Tokyo, Japan  
    Supervisor: [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi-j.html) 
 
