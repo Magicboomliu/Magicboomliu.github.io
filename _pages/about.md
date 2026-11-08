@@ -21,7 +21,7 @@ redirect_from:
 
 🎓 Biography
 ======
-I am currently a full-time Machine Learning Engineer at Woven by Toyota, working on the Digital Twin Platform within the Woven City Management (WCM) organization. My primary interests lie in computer vision, machine learning, and large-scale perception systems. I hold a Ph.D. in Engineering from the Institute of Science Tokyo. My previous research focused on 3D computer vision and autonomous driving perception, particularly 3D scene understanding, reconstruction, and generative modeling. I also serve as a reviewer for leading machine learning and computer vision conferences, including NeurIPS, ICLR, ICML, and CVPR. In my current role, I develop production-oriented perception systems that reconstruct real-world environments in 3D, track people and activities across multiple cameras, and leverage vision-language models for spatial-temporal reasoning and behavior understanding. I also design and operate GPU-accelerated training and inference pipelines on AWS, delivering scalable and reusable ML capabilities to teams in Japan and internationally.
+I am a Machine Learning Engineer at Woven by Toyota, building production perception systems for Woven City’s Digital Twin Platform. My work spans 3D reconstruction, multi-camera tracking, and vision-language reasoning, with GPU training and inference pipelines on AWS serving teams in Japan and overseas. I hold a Ph.D. in Engineering from the Institute of Science Tokyo. My research focuses on 3D vision, autonomous driving perception, and generative modeling. I review for NeurIPS, ICLR, ICML, and CVPR.
 
 
 💼 Experience
