@@ -80,13 +80,22 @@ I am currently a full-time Machine Learning Engineer at Woven by Toyota, working
 
 📝  Publications 
 ======
-<div id="stereosplat-plus">
-    <h3><span class="conf-badge">IROS 2026</span> StereoSplat+: Feed-Forward Stereo Gaussian Splatting with Diffusion-Assisted Progressive Inference</h3>
-    <p><b>Zihua Liu</b>, Masatoshi Okutomi<br>
-        IEEE/RSJ International Conference on Intelligent Robots and Systems<br>
-        <a href="https://arxiv.org/abs/2607.08808">📄 Paper (arXiv)</a> &nbsp; &nbsp;
-        <a href="{{ '/publication/iros2026' | relative_url }}">Publication details</a>
-    </p>
+<div id="stereosplat-plus" style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
+    <div style="flex: 1 1 270px; min-width: 0;">
+        <a href="{{ '/publication/iros2026' | relative_url }}#stereosplat-pipeline">
+            <img src="{{ '/images/stereosplat-plus-iros2026.png' | relative_url }}" alt="StereoSplat+ pipeline from a single stereo pair to a refined 3D Gaussian reconstruction" width="1413" height="650" loading="lazy" style="width: 100%; max-width: 400px; height: auto;"/>
+        </a>
+    </div>
+    <div style="flex: 1 1 270px; min-width: 0;">
+        <h3><span class="conf-badge iros">IROS 2026</span> StereoSplat+: Feed-Forward Stereo Gaussian Splatting with Diffusion-Assisted Progressive Inference</h3>
+        <p><b>Zihua Liu</b>, Masatoshi Okutomi<br>
+            IEEE/RSJ International Conference on Intelligent Robots and Systems<br>
+            <a href="https://arxiv.org/abs/2607.08808">📄 Paper</a> &nbsp; &nbsp;
+            <a href="http://www.ok.sc.e.titech.ac.jp/res/StereoSplat-Plus-Website/">🌐 Project</a> &nbsp; &nbsp;
+            <a href="https://github.com/Magicboomliu/StereoSplat_Plus">💻 Code</a> &nbsp; &nbsp;
+            <a href="http://www.ok.sc.e.titech.ac.jp/res/StereoSplat-Plus-Website/#video">▶ Demo</a>
+        </p>
+    </div>
 </div>
 
 ---

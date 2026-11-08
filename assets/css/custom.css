@@ -307,6 +307,11 @@ html {
     color: white;
 }
 
+.conf-badge.iros {
+    background: linear-gradient(135deg, #12635c, #274578);
+    color: white;
+}
+
 .conf-badge.wacv {
     background: linear-gradient(135deg, #a8edea, #fed6e3);
     color: #333;
